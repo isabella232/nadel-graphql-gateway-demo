@@ -4,7 +4,6 @@ import graphql.ExecutionResult;
 import graphql.nadel.Nadel;
 import graphql.nadel.NadelExecutionInput;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -28,7 +27,7 @@ public class GraphQLController {
             consumes = {APPLICATION_JSON_VALUE, APPLICATION_JSON_UTF8_VALUE},
             produces = APPLICATION_JSON_VALUE
     )
-    public CompletableFuture<Map<String, Object>> graphql(@RequestBody @Valid GraphQlRequestBody graphQlRequest,
+    public CompletableFuture<Map<String, Object>> graphql(@RequestBody @Valid GraphQLRequestBody graphQlRequest,
                                                           ServerWebExchange exchange) {
 
         NadelExecutionInput nadelExecutionInput = NadelExecutionInput.newNadelExecutionInput()

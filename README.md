@@ -11,7 +11,7 @@ Two services (called underlying services) which are exposed via the gateway:
 
 [user service](underlying-services/users): a user service written in JS.
 
-[issue service](underlying-services/issue): am issue service written in Java.
+[issue service](underlying-services/issues): am issue service written in Java.
 
 
 ## Running it
