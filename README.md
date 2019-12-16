@@ -9,9 +9,9 @@ The actual gateway in [gateway](gateway). It is Spring Boot app
 
 Two services (called underlying services) which are exposed via the gateway:
 
-[underlying-services/users](user service): a user service written in JS.
+[user service](underlying-services/users): a user service written in JS.
 
-[underlying-services/issue](issue service): a issue service written in Java.
+[issue service](underlying-services/issue): am issue service written in Java.
 
 
 ## Running it
