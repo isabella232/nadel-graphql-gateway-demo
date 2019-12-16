@@ -7,10 +7,11 @@ It consists of the following parts:
 
 The actual gateway in [gateway](gateway). It is Spring Boot app
 
-Two services (called underlying services) which are exposed via thea gateway:
+Two services (called underlying services) which are exposed via the gateway:
 
-[underlying-services/users]: a user service written in JS.
-[underlying-services/isseu]: a issue service written in Java.
+[underlying-services/users](user service): a user service written in JS.
+
+[underlying-services/issue](issue service): a issue service written in Java.
 
 
 ## Running it
