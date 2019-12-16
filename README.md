@@ -15,6 +15,10 @@ Two services (called underlying services) which are exposed via the gateway:
 
 
 ## Running it
-The simplest way is to clone this repo and execute `./run-example.sh`. It starts a docker container and exposes a GraphQL api at port 8080.
+The simplest way is to clone this repo and execute `./run-example.sh`. 
+
+It starts a docker container and exposes a GraphQL api at port 8080. 
+
+Open [http://localhost:8080/graphql](http://localhost:8080/graphql) in your browser to access GraphQL Playground for the gateway.
 
 
